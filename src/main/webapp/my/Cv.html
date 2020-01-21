@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf8">
+<title>My CV</title>
+</head>
+<body>
+	<h1>CV Ilaria Perrone</h1>
+	<h2>Recapiti</h2>
+	<p>Indirizzo: via della pace 3, Robecco S/N, 20087, MI.</p>
+	<br>
+	<p>Email: ilaria.perrone92@gmail.com</p>
+	<h3>Esperienze lavorative</h3>
+	<ol>
+		<li>Code For Future</li>
+		<li>Insegnate elementare
+			<p>
+				<img src="../pic/maestra.jpg" alt="A teacher" title="A teacher"
+					width="150" height="150" />
+			</p>
+			<ul>
+				<li>Docente supplente in una classe prima elementare</li>
+				<li>Docente supplente in una classe terza elementare</li>
+			</ul>
+		</li>
+	</ol>
+	<h4>Formazione</h4>
+	<p>
+		<a
+			href="https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Milano">Università</a>
+		degli Studi di Milano.
+	</p>
+	<br>
+	<p>Facoltà di Lettere Moderne. Classe LM-14. Indirizzo: Filologia
+		Moderna.</p>
+	<iframe
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.479521683017!2d9.192395615481871!3d45.46014347910092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6a62de675d9%3A0x1df6905f72858f73!2sUniversit%C3%A0%20degli%20Studi%20di%20Milano!5e0!3m2!1sit!2sit!4v1579617190644!5m2!1sit!2sit"
+		width="400" height="250"></iframe>
+	<h5>Lingue straniere</h5>
+	<table>
+		<thead>
+			<tr>
+				<th scope="row">\</th>
+				<th scope="col">Parlato</th>
+				<th scope="col">Scritto</th>
+				<th scope="col">Comprensione</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope="row">English</th>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+		</tr>
+		<tr>
+			<th scope="row">French</th>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+		</tr>
+		<tr>
+			<th scope="row">Spanish</th>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+		</tr>
+	</table>
+	<h6>Tecnologie informatiche</h6>
+	<table>
+		<thead>
+			<tr>
+				<th scope="row">\</th>
+				<th scope="col">Java</th>
+				<th scope="col">MySQL</th>
+				<th scope="col">HTML</th>
+				<th scope="col">Eclipse</th>
+				<th scope="col">Git</th>
+			</tr>
+		</thead>
+		<tr>
+			<th scope="row">Livello teorico</th>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+		</tr>
+		<tr>
+			<th scope="row">Livello pratico</th>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+			<td>x</td>
+		</tr>
+	</table>
+	<form action="/job request" method="post">
+		<div>
+			<fieldset>
+				<legend>User</legend>
+				<label>First name: <input type="text" name="fname" required />
+				</label>
+				<label>Last
+					name: <input type="text" name="lname" required />
+				</label>
+				<label>Company: <input type="text" name="aname" required />
+				</label>
+			</fieldset>
+		</div>
+		<div>
+		<p>Offer reason:</p>
+		<br>
+			<select name="job">
+				<option value="none" selected>-</option>
+				<option value="job offer">Job Offer</option>
+				<option value="job cooperation">Job Cooperation</option>
+				<option value="job info">Job Info</option>
+			</select>
+		</div>
+		<div>
+			<label for="msg">Message:</label>
+			<br>
+			<textarea id="msg" name="message" required></textarea>
+		</div>
+		<div>
+			<input type="submit" value="Send" />
+		</div>
+	</form>
+</body>
+</html>
