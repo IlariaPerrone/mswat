@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: #c1c1ff;
 }
 
 p {
@@ -7,11 +7,11 @@ p {
 }
 
 #special {
-    color: violet;
+    color: #0080ff;
 }
 
 h1, h2, h3 {
-    color: yellow;
+    color: #800040;
 }
 
 .myClass {
@@ -19,16 +19,16 @@ h1, h2, h3 {
 }
 
 p.myClass {
-    color: blue;
+    color: #004a00;
 }
 
 #paragraphId {
-    color: red;
+    color: #ff8040;
 }
 
 #blockId {
-    border: 3px solid #ff8000;
-    background-color: #ffff80;
+    border: 3px solid #ff0080;
+    background-color: #ffc6e2;
 }
 
 .boldCls {
